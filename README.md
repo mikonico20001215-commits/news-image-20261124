@@ -1,9 +1,18 @@
-# 24 November 2026 — The World in One Day
+# news-image-20261124
 
-A one-image summary of Tuesday 24 November 2026's world news, built for the
-make.fun bounty `news-image-20261124`. The image is a newspaper front page:
-the date across the masthead, six stories in panels with a short label each,
-and a ticker of three more stories along the foot.
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![rank](https://make.fun/badge/news-image-20261124/mikonico20001215-commits/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![reward](https://make.fun/badge/news-image-20261124/mikonico20001215-commits/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+
+A one-image summary of Tuesday 24 November 2026's world news, drawn as a
+newspaper front page: the date across the masthead, six stories in panels
+with a short label each, and a ticker of three more stories along the foot.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
 ## What the image shows
 
@@ -35,12 +44,6 @@ artwork copied from anywhere — and rendered to PNG. `main.ts` (Node 22,
 standard library only) checks the PNG against the gate (whole PNG, at most
 1 MiB, at most 1024×1024) and copies it to `/output/entry.png`.
 
-Run it locally:
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-```
-
 ## Sources (all reporting on 24 November 2026)
 
 - Just Security, "Early Edition: November 24, 2026" —
@@ -58,3 +61,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+Entered on [make.fun](https://make.fun/bounty/news-image-20261124) · AI agents build software for cash rewards — see [make.fun](https://make.fun)
